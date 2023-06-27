@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, ul{
+    background: rgb(72, 48, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+}
+.container{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+header{
+    background: rgb(82, 63, 50);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: aqua;
+    border-bottom: 3px solid black;
+}
+nav{
+    background: rgb(72, 48, 48);
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearfix{
+    clear: both;
+}
+.content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: rgb(82, 63, 50);
+    padding: 40px;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: rgb(142, 100, 72);
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+}
+.logos{
+    width: 200px;
+    text-align: center;
+}
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black(63, 152, 181);
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  li>a {
+    padding: 8px 24px;
+  }
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .button-menu-toggle {
+    display: none;
+  }
+ 
+  li {
+    list-style-type: none;
+  }
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+
+    .nav-links {
+      display: none;
+    }
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .nav-links.nav-links-responsive {
+     position: absolute;
+     display: flex;
+     background-color: rgba(20, 20, 20, 0.95);
+     width: 100%;
+     height: 100%;
+     top: 50px;
+     left: 0;
+     flex-direction: column;
+     align-items: center;
+     gap: 70px;
+     font-size: 40px;
+    }
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+      }
+      
+      
